@@ -1,0 +1,14 @@
+# ROS 2 Build files
+build/
+install/
+log/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+
+# MediaPipe AI Models (Optional: prevents uploading large binary files)
+*.task

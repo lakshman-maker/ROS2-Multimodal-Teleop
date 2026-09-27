@@ -25,6 +25,7 @@ Because WSL2 cannot natively access Windows webcams, you must use `usbipd` to br
    
 2. Bind and attach the camera to Ubuntu (replace <busid> with your camera's ID):
 usbipd bind --busid <busid>
+
 usbipd attach --wsl --busid <busid>
 
 Installation & Build
